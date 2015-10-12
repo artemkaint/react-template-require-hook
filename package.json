@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/artemkaint/react-template-require-hook#readme",
   "peerDependencies": {
-    "react-templates": "^0.2.0"
+    "react-templates": "^0.2.0",
+    "lodash": "^3.10.1"
   }
 }
