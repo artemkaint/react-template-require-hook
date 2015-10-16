@@ -5,13 +5,14 @@ var ext = '.rt';
 
 module.exports = function(options) {
   var defaultOptions = {
-    modules: 'commonjs'
+    modules: 'commonjs',
+    reactImportPath: 'react'
   };
-  var options = _.extend({}, defaultOptions, options);
+  var convertOptions = _.extend({}, defaultOptions, options);
 
   var loadRtFile = function(module, filename) {
     var source = fs.readFileSync(filename, 'utf8');
-    var answer = reactTemplates.convertTemplateToReact(source, options);
+    var answer = reactTemplates.convertTemplateToReact(source, convertOptions);
     module._compile(answer, filename);
   };
 
