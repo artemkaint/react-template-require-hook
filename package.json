@@ -1,6 +1,6 @@
 {
   "name": "react-template-require-hook",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Node js require hook to compile rt files on fly",
   "main": "index.js",
   "scripts": {
