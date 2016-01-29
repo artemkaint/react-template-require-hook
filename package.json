@@ -1,6 +1,6 @@
 {
   "name": "react-template-require-hook",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Node js require hook to compile rt files on fly",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/artemkaint/react-template-require-hook#readme",
   "peerDependencies": {
-    "react-templates": "^0.3.2",
-    "lodash": "^3.10.1"
+    "react-templates": ">0.3.2",
+    "lodash": ">3.10.1"
   }
 }
